@@ -85,6 +85,18 @@ action_name = "move_back"
 layout_mode = 2
 action_name = "jump"
 
+[node name="Hotkey_Rebind_Button6" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
+layout_mode = 2
+action_name = "exit"
+
+[node name="Hotkey_Rebind_Button7" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
+layout_mode = 2
+action_name = "crouch"
+
+[node name="Hotkey_Rebind_Button8" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
+layout_mode = 2
+action_name = "change_camera"
+
 [node name="HSeparator2" type="HSeparator" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_constants/separation = 25
