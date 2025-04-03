@@ -1,0 +1,52 @@
+{
+	"Depot": {
+		"intro": {
+			"dialogue": "test test",
+			"choices": [
+				"continue"
+			]
+		},
+		"intro1": {
+			"dialogue": "test test 1",
+			"choices": [
+				"a",
+				"b",
+				"c"
+			]
+		},
+		"intro2": {
+			"dialogue": "test test 2",
+			"choices": [
+				"a",
+				"b",
+				"c"
+			]
+		},
+		"a": {
+			"dialogue": "a test",
+			"choices": [
+				"End"
+			]
+		},
+		"b": {
+			"dialogue": "b test",
+			"choices": [
+				"End"
+			]
+		},
+		"c": {
+			"dialogue": "c test",
+			"choices": [
+				"End"
+			]
+		}
+	},
+	"London": {
+		"intro": {
+			"Dialogue": "Hello again",
+			"choices": [
+				"End"
+			]
+		}
+	}
+}

@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0kdf68pvklvx"]
+
+[ext_resource type="Script" uid="uid://dvjvlyumkmlm0" path="res://Data/Scripts/Menu/hotkey_rebind_button.gd" id="1_6iuqc"]
+[ext_resource type="FontFile" uid="uid://c8r6xwvqqo3nd" path="res://Data/Fonts/TIMESI.TTF" id="1_kt1sk"]
+
+[node name="Hotkey_Rebind_Button" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6iuqc")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 650.0
+offset_bottom = 44.0
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+custom_minimum_size = Vector2(200, 30)
+layout_mode = 2
+theme_override_constants/outline_size = 25
+theme_override_fonts/font = ExtResource("1_kt1sk")
+theme_override_font_sizes/font_size = 32
+text = "Action"
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 25
+theme_override_fonts/font = ExtResource("1_kt1sk")
+theme_override_font_sizes/font_size = 32
+toggle_mode = true
+text = "Action_key"

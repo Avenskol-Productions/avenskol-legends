@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://vqqn4f0couie"]
+
+[ext_resource type="Script" uid="uid://rnifwpmybh4" path="res://Data/Scripts/Menu/dialogue.gd" id="1_iaqyg"]
+[ext_resource type="Texture2D" uid="uid://dd3ppdnkci0bj" path="res://Assets/Textures/Icons/inventory_texture.png" id="1_twms6"]
+[ext_resource type="Script" uid="uid://7uuv6sxguww1" path="res://Data/Scripts/dialogue_button.gd" id="2_kxxwj"]
+[ext_resource type="Script" uid="uid://mf0guudx8i4w" path="res://Data/Scenes/Menus/Menu Componants/choice.gd" id="3_a80lb"]
+
+[node name="DialogueMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MenuTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -262.0
+offset_bottom = -128.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("1_twms6")
+
+[node name="MenuText" type="Panel" parent="MenuTexture"]
+layout_mode = 2
+offset_top = 150.0
+offset_right = 262.0
+offset_bottom = 564.0
+size_flags_vertical = 6
+
+[node name="Dialogue" type="RichTextLabel" parent="MenuTexture/MenuText"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+script = ExtResource("1_iaqyg")
+
+[node name="TextureRect" type="TextureRect" parent="MenuTexture/MenuText"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = -149.0
+grow_horizontal = 2
+texture = ExtResource("1_twms6")
+
+[node name="Choice" type="RichTextLabel" parent="MenuTexture/MenuText/TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+script = ExtResource("3_a80lb")
+
+[node name="DialogueButton" type="Button" parent="MenuTexture"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -74.0
+offset_top = -31.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Add text"
+script = ExtResource("2_kxxwj")

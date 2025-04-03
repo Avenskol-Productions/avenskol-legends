@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bubha1q5m00tr"]
+
+[ext_resource type="Texture2D" uid="uid://cqymlcskiktpq" path="res://Assets/Textures/Dark/texture_01.png" id="1_vy1lp"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2m1yb"]
+albedo_texture = ExtResource("1_vy1lp")
+
+[node name="Character Stand" type="Node3D"]
+
+[node name="Base" type="Node3D" parent="."]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Base"]
+height = 0.5
+material = SubResource("StandardMaterial3D_2m1yb")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.23434, 2)
+fov = 60.841
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 3, 0)

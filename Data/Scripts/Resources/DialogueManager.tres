@@ -1,0 +1,31 @@
+[gd_resource type="Resource" script_class="Point" load_steps=2 format=3 uid="uid://ci6fl5d2xpuqb"]
+
+[ext_resource type="Script" uid="uid://lpkqs35k3g1w" path="res://Data/Scripts/Resources/DialogueManager.gd" id="1_febvx"]
+
+[resource]
+script = ExtResource("1_febvx")
+_type = 1
+_stationName = "Manchester"
+_distance = 500
+_dialogue = {
+"Intro": {
+"Choices": ["Continue"],
+"Dialogue": "Bla bla"
+},
+"Intro1": {
+"Choices": ["a", "b", "c"],
+"Dialogue": "Again bla"
+},
+"a": {
+"Choices": ["End"],
+"Dialogue": "A bla"
+},
+"b": {
+"Choices": ["End"],
+"Dialogue": "B bla"
+},
+"c": {
+"Choices": ["End"],
+"Dialogue": "C bla"
+}
+}
