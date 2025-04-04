@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bhf7q3x0ha654"]
+
+[ext_resource type="Script" uid="uid://5vkrqibc5ymm" path="res://Data/Scripts/Character/PlayerController.gd" id="1_7q1y5"]
+[ext_resource type="PackedScene" uid="uid://tjsvgjhfvvb1" path="res://Assets/models/Test/player.glb" id="1_exd6p"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_exd6p"]
+
+[node name="PlayerControllerTest" type="CharacterBody3D"]
+script = ExtResource("1_7q1y5")
+
+[node name="player" parent="." instance=ExtResource("1_exd6p")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_exd6p")
+
+[node name="First Person Camera" type="Camera3D" parent="."]
+transform = Transform3D(-1, 0, 1.03316e-07, 0, 1, 0, -1.03316e-07, 0, -1, 0, 1.67857, 0.128819)
+
+[node name="ReflectionProbe" type="ReflectionProbe" parent="First Person Camera"]
+update_mode = 1

@@ -1,4 +1,5 @@
 Information sources:
 CoffeeCrow, Menus
 MrAlphredo, Inventory.
-Artificial Entertainment Dialogue menu
+Artificial Entertainment, Dialogue menu
+Zenva, Procedural Generation
