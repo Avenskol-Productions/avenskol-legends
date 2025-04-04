@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvmyhd5or22p0"]
+
+[ext_resource type="Texture2D" uid="uid://dtjq1lnc3grvj" path="res://Assets/Textures/Materials/DirtTexture.jpg" id="1_k24v2"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_21p27"]
+albedo_color = Color(0.433488, 0.400385, 0.291534, 1)
+albedo_texture = ExtResource("1_k24v2")
+
+[node name="DirtCube" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material = SubResource("StandardMaterial3D_21p27")

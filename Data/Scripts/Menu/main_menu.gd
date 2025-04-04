@@ -5,7 +5,7 @@ extends Control
 @onready var lore_button = $MarginContainer/HBoxContainer/VBoxContainer/Lore as Button
 @onready var settings_button = $MarginContainer/HBoxContainer/VBoxContainer/Settings as Button
 @onready var exit_button = $MarginContainer/HBoxContainer/VBoxContainer/Exit as Button
-@onready var start_level = preload("res://Data/Scenes/TestWorld.tscn") as PackedScene
+@onready var start_level = preload("res://Assets/models/Procedural Generation/Terrain/world.tscn") as PackedScene
 @onready var settings_menu = $SettingsMenu as Settingsmenu
 @onready var margin_container = $MarginContainer as MarginContainer
 
