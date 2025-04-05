@@ -1,0 +1,8 @@
+Creature Creator:
+	Creature Creation (tab1)
+	Test Mode (tab2)
+	Texture Mode (tab3)
+Creature Outfitter:
+	Tribal Outfitter (tab1)/starting equipment (tab2)
+	Civil Outfitter (tab3)/starting equipment (tab4)
+	Space Outfitter (tab5)/starting equipment (tab6)

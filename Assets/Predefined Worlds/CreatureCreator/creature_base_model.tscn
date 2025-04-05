@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dstmv4wvuiop6"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_k8yxg"]
+radius = 0.25
+radial_segments = 25
+rings = 15
+
+[node name="CreatureBaseModel" type="Node3D"]
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+use_collision = true
+mesh = SubResource("SphereMesh_k8yxg")
