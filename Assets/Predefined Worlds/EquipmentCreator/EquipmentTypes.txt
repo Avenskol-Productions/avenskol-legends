@@ -1,1 +1,1 @@
-Armour/clothes (civilian, heavy, light, medium), Bows, Brawling Gauntlets, Clubs, Crossbows, Darts, Flails, Hammers, Knives, Guns, Polearms, Shields, Slings, Spears, Swords.
+Accessories/armour/clothes (civilian, heavy, light, medium), Bows, Brawling Gauntlets, Clubs, Crossbows, Darts, Firearms, Flails, Hammers, Knives, Polearms, Shields, Siege Equipment, Slings, Spears, Swords.

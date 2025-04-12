@@ -4,5 +4,7 @@ Creature Creator:
 	Texture Mode (tab3)
 Creature Outfitter:
 	Tribal Outfitter (tab1)/starting equipment (tab2)
-	Civil Outfitter (tab3)/starting equipment (tab4)
-	Space Outfitter (tab5)/starting equipment (tab6)
+	Medieval Outfitter (tab3)/starting equipment (tab4)
+	Civil Outfitter (tab5)/starting equipment (tab6)
+	Space Outfitter (tab7)/starting equipment (tab8)
+	Custom Outfitter (tab9)/starting equipment (tab10)
