@@ -19,16 +19,20 @@ func set_action_name() -> void:
 			label.text = "Move Right"
 		"move_front":
 			label.text = "Move Forward"
+		"move_ur":
+			label.text = "move northeast"
+		"move_ul":
+			label.text = "move northwest"
 		"move_back":
 			label.text = "Move Back"
+		"move_lr":
+			label.text = "move southeast"
+		"move_ll":
+			label.text = "move southwest"
 		"jump":
 			label.text = "Jump"
 		"exit":
 			label.text = "Exit"
-		"crouch":
-			label.text = "Crouch"
-		"change_camera":
-			label.text = "Change camera perspective"
 
 func set_text_for_key() -> void:
 	var action_events = InputMap.action_get_events(action_name)
