@@ -1,4 +1,4 @@
 Information sources:
 CoffeeCrow, Menus
 MrAlphredo, Inventory.
-Artificial Entertainment, Dialogue menu
+KoBeWi for MV addon
