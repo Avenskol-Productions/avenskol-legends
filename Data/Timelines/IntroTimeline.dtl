@@ -1,0 +1,49 @@
+AvenkyrDaemina: Long ago there was peace between Dorator & it's nine moons.\
+But peace tends to not last when issues arive.
+[wait time="1.0" skippable="true"]
+AvenkyrDaemina: An so, when Xelastyr decided to attack the denizens of Dorator, I was forced to kill one of my own children.\
+Against my own will.
+[wait time="1.0" skippable="true"]
+AvenkyrDaemina: An so here we are now. A planet burned in conflict, one that houses Talcius' own children.\
+The sacred vaults, for which I shall remain. For Dorator calls, to give me peace and time to contemplate.
+[wait time="2.0" skippable="true"]
+Narrator: Riita a child born to a world saved from artificial cinders.
+Narrator: A child once kidnapped & raised by Chyratylian avennats.\
+It would soon learn it's own free will.
+[wait time="2.0" skippable="true"]
+Narrator: You are waking up, healed from the deathly pain.
+[wait time="1.0" skippable="true"]
+Riita: *Purring* Well.. *Yawning*..I'm not dead...
+join Riita center
+[wait time="1.0" skippable="true"]
+"Avennat Eikal": Careful young one. I've managed to subdue the pain now so I see you need help getting back up.\
+Take my hand child.
+join "Avennat Eikal" center
+- Take his left hand
+	jump choice a
+- Take his right hand
+	jump choice a
+- Ignore their request & get up on your own
+	jump choice b
+label choice a
+Narrator: You grab their hand, only to find out they're prosthetic.
+[wait time="1.0" skippable="true"]
+Riita: Oh gods sorry, here it is!
+[wait time="1.0" skippable="true"]
+"Avennat Eikal": No need to apologies, it was trivial that was going to happen.
+jump jumpa
+label choice b
+Narrator: You stand up on your own.
+[wait time="1.0" skippable="true"]
+Riita: I can handle myself.
+"Avennat Eikal": Very well then.
+[wait time="1.0" skippable="true"]
+jump jumpa
+label jumpa
+"Avennat Eikal": Anyways I helped you, now potentially you help me?
+[wait time="1.0" skippable="true"]
+Riita: Depends on certain things.
+[wait time="1.0" skippable="true"]
+"Avennat Eikal": It's nothing overtly dangerous, I just would like to have something to eat whilst I pray to Dorator.
+[wait time="1.0" skippable="true"]
+Riita: (An avennat praying to Dorator...this is something to hear...)
