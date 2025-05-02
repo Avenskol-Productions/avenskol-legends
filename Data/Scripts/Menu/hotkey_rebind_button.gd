@@ -17,18 +17,16 @@ func set_action_name() -> void:
 			label.text = "Move Left"
 		"move_right":
 			label.text = "Move Right"
-		"move_front":
-			label.text = "Move Forward"
-		"move_ur":
-			label.text = "move northeast"
-		"move_ul":
-			label.text = "move northwest"
-		"move_back":
-			label.text = "Move Back"
-		"move_lr":
-			label.text = "move southeast"
-		"move_ll":
-			label.text = "move southwest"
+		"Special1":
+			label.text = "Special ability 1"
+		"Special2":
+			label.text = "Special ability 2"
+		"Special3":
+			label.text = "Special ability 3"
+		"Special4":
+			label.text = "Special ability 4"
+		"Special5":
+			label.text = "Special ability 5"
 		"jump":
 			label.text = "Jump"
 		"exit":

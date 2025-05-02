@@ -68,34 +68,30 @@ theme_override_styles/separator = SubResource("StyleBoxEmpty_umcwi")
 
 [node name="Hotkey_Rebind_Button" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_front"
 
 [node name="Hotkey_Rebind_Button7" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_ur"
+action_name = "move_right"
 
 [node name="Hotkey_Rebind_Button8" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_ul"
+action_name = "Special1"
 
 [node name="Hotkey_Rebind_Button2" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
+action_name = "Special2"
 
 [node name="Hotkey_Rebind_Button3" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_right"
+action_name = "Special3"
 
 [node name="Hotkey_Rebind_Button9" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_ll"
+action_name = "Special4"
 
 [node name="Hotkey_Rebind_Button10" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
-action_name = "move_lr"
-
-[node name="Hotkey_Rebind_Button4" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
-layout_mode = 2
-action_name = "move_back"
+action_name = "Special5"
 
 [node name="Hotkey_Rebind_Button5" parent="TabContainer/Controls/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("1_umcwi")]
 layout_mode = 2
