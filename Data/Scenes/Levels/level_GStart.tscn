@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmov6cjakacei"]
+
+[ext_resource type="PackedScene" uid="uid://bp1h7jw07hyvd" path="res://Data/Scenes/Entities/player.tscn" id="1_hdf5i"]
+[ext_resource type="PackedScene" uid="uid://dv0u7rx6usog5" path="res://Data/Scenes/LevelKits/LKPlatform.tscn" id="2_c0t7d"]
+
+[node name="level_1" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_hdf5i")]
+position = Vector2(-60, -29)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+
+[node name="Platform3" parent="." instance=ExtResource("2_c0t7d")]
+position = Vector2(92, 0)
+
+[node name="Platform2" parent="." instance=ExtResource("2_c0t7d")]
+position = Vector2(46, 0)
+
+[node name="Platform5" parent="." instance=ExtResource("2_c0t7d")]
+position = Vector2(-46, 0)
+
+[node name="Platform4" parent="." instance=ExtResource("2_c0t7d")]
+position = Vector2(-46, 0)
+
+[node name="Platform" parent="." instance=ExtResource("2_c0t7d")]

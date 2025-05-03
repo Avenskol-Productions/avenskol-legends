@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv0u7rx6usog5"]
+
+[ext_resource type="Texture2D" uid="uid://8pswgl7v74ou" path="res://Assets/Textures/Sprites/Environment/2d_metroidvania_serie_mockup_1_tileset.png" id="1_i7b7h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_djxt4"]
+size = Vector2(46, 14)
+
+[node name="Platform" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+texture = ExtResource("1_i7b7h")
+region_enabled = true
+region_rect = Rect2(33, 81, 46, 14)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_djxt4")

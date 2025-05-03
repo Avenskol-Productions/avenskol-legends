@@ -34,14 +34,14 @@ func movement(delta):
 		$Anim.play("Fall")
 		#need to figure out how to regain the ability to jump after uses.
 	if Input.is_action_just_pressed("jump") && is_on_floor() && jump_count < max_jump:
-		jump_count += 1
+		#jump_count += 1
 		velocity.y -= jump_force
 		velocity.x = input
-	if is_on_floor() && Input.is_action_just_pressed("Jump") && jump_count < max_jump:
-		jump_count += 1
-		velocity.y -= jump_force * 1.1
-		velocity.x = input
-	if is_on_floor() && Input.is_action_just_released("jump") && jump_count < max_jump:
+	#if !is_on_floor() && Input.is_action_just_pressed("Jump") && jump_count < max_jump:
+		#jump_count += 1
+		#velocity.y -= jump_force * 1.1
+		#velocity.x = input
+	if !is_on_floor() && Input.is_action_just_released("jump") && jump_count < max_jump:
 		velocity.y = gravity
 		velocity.x = input
 	else:
